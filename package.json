@@ -1,11 +1,20 @@
 {
   "name": "vellofoodtest",
   "version": "0.1.0",
+  "homepage": "http://vellofood-test.kodebase.co.ke",
   "private": true,
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "@material-ui/icons": "^4.5.1",
+    "css-loader": "^3.2.0",
+    "mdbreact": "^4.23.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-google-maps": "9.4.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "recompose": "^0.30.0",
+    "scroll-background": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.7.0",
+    "material-ui-image": "^3.2.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "react-countup": "^4.2.3"
   }
 }
